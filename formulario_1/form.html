@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Datos personales</h1>
+    <form method="post">
+        <label for="nombre"><b>Nombres:</b></label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su primer nombre" required>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su segundo nombre" required>
+        <br>
+        <br>
+        <label for="apellido"><b>Apellidos:</b></label>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su primer apellido" required>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su segundo apellido" required>
+        <br>
+        <br>
+        <label for="edad"><b>Edad:</b></label>
+        <br>
+        <input type="number" name="hbd" id="hbd" required>
+        <br>
+        <br>
+        <label for="peso"><b>Peso:</b></label>
+        <br>
+        <input type="number" name="peso" id="peso" placeholder="Ingrese su peso" step="any" required>
+        <br>
+        <br>
+        <label for="genero"><b>Género:</b></label>
+        <br>
+        <input type="radio" id="genero" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <br>
+        <input type="radio" id="genero" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+        <br>
+        <label for="email"><b>Email:</b></label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+        <br>
+        <br>
+        <label for="ciudad"><b>Ciudad:</b></label>
+        <br>
+
+        <select name="ciudad" id="ciudad">
+            <option value="">Seleccione una ciudad</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Antioquia">Antioquia</option>
+            <option value="Arauca">Arauca</option>
+            <option value="Atlántico">Atlántico</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Bolívar">Bolívar</option>
+            <option value="Boyacá">Boyacá</option>
+            <option value="Caldas">Caldas</option>
+            <option value="Caquetá">Caquetá</option>
+            <option value="Casanare">Casanare</option>
+            <option value="Cauca">Cauca</option>
+            <option value="Cesar">Cesar</option>
+            <option value="Chocó">Chocó</option>
+            <option value="Córdoba">Córdoba</option>
+            <option value="Cundinamarca">Cundinamarca</option>
+            <option value="Guainía">Guainía</option>
+            <option value="Guaviare">Guaviare</option>
+            <option value="Huila">Huila</option>
+            <option value="La Guajira">La Guajira</option>
+            <option value="Magdalena">Magdalena</option>
+            <option value="Meta">Meta</option>
+            <option value="Nariño">Nariño</option>
+            <option value="Norte de Santander">Norte de Santander</option>
+            <option value="Putumayo">Putumayo</option>
+            <option value="Quindío">Quindío</option>
+            <option value="Risaralda">Risaralda</option>
+            <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+            <option value="Santander">Santander</option>
+            <option value="Sucre">Sucre</option>
+            <option value="Tolima">Tolima</option>
+            <option value="Valle del Cauca">Valle del Cauca</option>
+            <option value="Vaupés">Vaupés</option>
+            <option value="Vichada">Vichada</option>    
+        </select>
+        <br>
+    <h2>Perfil profesional</h2>
+    <label for="Nivel educativo"><b>Nivel educativo alcanzado:</b></label>
+    <br>
+    <br>
+    <select name="Nivel_educativo" id="Nivel_educativo">
+        <option value="">Seleccione una opcion</option>
+        <option value="Basica primaria">Basica primaria</option>
+        <option value="Basica secundaria">Basica secundaria</option>
+        <option value="Tecnico">Tecnico</option>
+        <option value="Tecnologo">Tecnologo</option>
+        <option value="Profesional">Profesional</option> 
+    </select>  
+    <br>
+    <br>
+    <label for="hobies"><b>Pasatiempo:</b></label>
+    <br>
+    <input type="checkbox" id="leer" name="leer" value="Leer">
+    <label for="leer">Leer</label>
+    <br>
+    <input type="checkbox" id="music" name="music" value="music">
+    <label for="music">Escuchar música</label>
+    <br>
+    <input type="checkbox" id="sport" name="sport" value="sport">
+    <label for="sport">Jugar fútbol</label>      
+    <br>
+    <input type="checkbox" id="draw" name="draw" value="draw">
+    <label for="draw">Dibujar</label> 
+    <br>    
+    <input type="checkbox" id="cook" name="cook" value="cook">
+    <label for="cook">Cocinar</label> 
+    <br>
+    <br>
+    <label for="file"><b>Subir hoja de vida:</b></label>
+    <br>
+    <input type="file" name="file" id="file" accept=".pdf, .jpg">
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+    </form>
+</body>  
+       
+
+
